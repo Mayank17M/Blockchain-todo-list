@@ -1,0 +1,29 @@
+{
+  "name": "blockchain-todo-list",
+  "version": "1.0.0",
+  "description": "Ethereum smart contract based to-do list app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayank17M/Blockchain-todo-list.git"
+  },
+  "author": "Mayank17M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayank17M/Blockchain-todo-list/issues"
+  },
+  "homepage": "https://github.com/Mayank17M/Blockchain-todo-list#readme",
+  "dependencies": {
+    "truffle": "^5.0.2",
+    "bootstrap": "4.1.3",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.17.3",
+    "truffle-contract": "3.0.6"
+  }
+}
