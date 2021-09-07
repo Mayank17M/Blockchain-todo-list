@@ -18,5 +18,6 @@ contract todoList{
     function createTask(string memory _content) public {
         taskCount++;
         tasks[taskCount] = task(taskCount, _content, false);
+        emit TaskCreated(taskCount, _content, false);
     }
 }
